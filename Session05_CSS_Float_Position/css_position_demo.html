@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+</head>
+
+<body>
+    <style>
+        .container,
+        .container2 {
+            width: 800px;
+            height: 500px;
+            border: 1px solid;
+        }
+
+        .div01,
+        .div02,
+        .div03,
+        .div04,
+        .div05 {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            display: inline-block;
+        }
+
+        .div01 {
+            background: red;
+            position: static;
+        }
+
+        .div02 {
+            background: green;
+            position: relative;
+            top: 20px;
+            left: 30px;
+        }
+
+        .div03 {
+            background: blue;
+            position: absolute;
+            top: 50px;
+            right: 30px;
+        }
+
+        .div04 {
+            background: orangered;
+            position: fixed;
+            top: 200px;
+            right: 150px;
+        }
+
+        .div05 {
+            background: violet;
+            position: sticky;
+            top: 100px;
+        }
+    </style>
+    <div class="container">
+        <div class="div01"></div>
+        <div class="div02"></div>
+        <div class="div03"></div>
+        <div class="div04"></div>
+        <div class="div05"></div>
+    </div>
+    <div class="container2"></div>
+</body>
+
+</html>

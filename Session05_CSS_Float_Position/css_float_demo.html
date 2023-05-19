@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+</head>
+
+<body>
+    <style>
+        .container1,
+        .container2,
+        .container3 {
+            width: 800px;
+            height: 500px;
+            border: 1px solid;
+        }
+
+        .container1 img {
+            float: left;
+            margin-right: 30px;
+        }
+
+        .container1 p {
+            margin-left: 20px;
+        }
+
+        .container2 img {
+            float: right;
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+
+        .container2 p {
+            padding-left: 20px;
+        }
+
+        .container3 img {
+            float: left;
+        }
+
+        .zone02 {
+            clear: left;
+        }
+    </style>
+    <div class="container1">
+        <h2>Float left</h2>
+        <p>
+            <img src="./images/Namie-Amuro.jpg" alt="Namue-Amuro" width="300px" height="300px" srcset="" />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat laudantium qui possimus tempora
+            temporibus
+            laborum perferendis asperiores dicta dolore soluta, numquam ullam ipsam distinctio nisi esse recusandae,
+            molestiae vitae magni.Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat laudantium qui
+            possimus tempora temporibus
+            laborum perferendis asperiores dicta dolore soluta, numquam ullam ipsam distinctio nisi esse recusandae,
+            molestiae vitae magni.
+        </p>
+    </div>
+    <div class="container2">
+        <h2>Float right</h2>
+        <p>
+            <img src="./images/Namie-Amuro.jpg" alt="Namue-Amuro" width="300px" height="300px" srcset="" />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat laudantium qui possimus tempora
+            temporibus
+            laborum perferendis asperiores dicta dolore soluta, numquam ullam ipsam distinctio nisi esse recusandae,
+            molestiae vitae magni.Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat laudantium qui
+            possimus tempora temporibus
+            laborum perferendis asperiores dicta dolore soluta, numquam ullam ipsam distinctio nisi esse recusandae,
+            molestiae vitae magni.
+        </p>
+    </div>
+    <div class="container3">
+        <h2>Clear</h2>
+        <img src="./images/Namie-Amuro.jpg" alt="Namue-Amuro" width="300px" height="300px" srcset="" />
+        <p class="zone01">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat laudantium qui possimus tempora
+            temporibus
+            laborum perferendis asperiores dicta dolore soluta, numquam ullam ipsam distinctio nisi esse recusandae,
+            molestiae vitae magni.Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat laudantium qui
+            possimus tempora temporibus
+            laborum perferendis asperiores dicta dolore soluta, numquam ullam ipsam distinctio nisi esse recusandae,
+            molestiae vitae magni.
+        </p>
+        <p class="zone02">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt error aut dolore debitis
+            dolorum incidunt,
+            velit nihil sequi accusantium assumenda suscipit cum molestias exercitationem omnis facilis, nemo fuga nisi
+            asperiores.</p>
+    </div>
+    <style>
+        .container4 {
+            width: 800px;
+            height: 500px;
+            border: 1px solid;
+        }
+
+        .div01,
+        .div02,
+        .div03,
+        .div04 {
+            width: 100px;
+            height: 100px;
+            border: 1px solid;
+            /* display: inline-block;
+            margin: 20px; */
+            float: right;
+            margin: 20px;
+        }
+
+        .div01 {
+            background: red;
+        }
+
+        .div02 {
+            background: green;
+        }
+
+        .div03 {
+            background: blue;
+        }
+
+        .div04 {
+            background: orangered;
+        }
+    </style>
+    <div class="container4">
+        <div class="div01"></div>
+        <div class="div02"></div>
+        <div class="div03"></div>
+        <div class="div04"></div>
+    </div>
+</body>
+
+</html>
